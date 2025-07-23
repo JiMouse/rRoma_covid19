@@ -8,11 +8,11 @@ This repository provides a reproducible, automated pipeline to build **Seurat v5
 
 ## 🚀 Features
 
-- 📦 **Seurat v5 object construction** from raw matrix or HDF5 input (several example, 1.xxx scripts)
-- 🧬 **Cell type annotation** using SingleR and curated references (3. singleR_annotation.R)
-- 🧮 **Pseudobulk matrix generation** (gene × sample × cell type) (both raw and normalised counts, 4. seurat_pseudobulk_extraction.R)
-- 🔁 Optional **batch-wise processing** and merging for multi-sample studies (5. merge batch pseudobulk.R)
-- 🧰 Compatible with downstream pseudobulk tools (e.g., DESeq2, edgeR, ROMA) (6. rRoma_analysis.R as example)
+- 📦 **Seurat v5 object construction** from raw matrix or HDF5 input
+- 🧬 **Cell type annotation** using SingleR and curated references
+- 🧮 **Pseudobulk matrix generation** (gene × sample × cell type) (both raw and normalised counts)
+- 🔁 Optional **batch-wise processing** and merging for multi-sample studies
+- 🧰 Compatible with downstream pseudobulk tools (e.g., DESeq2, edgeR, ROMA)
 
 ---
 
