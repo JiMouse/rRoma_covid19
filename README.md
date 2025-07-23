@@ -32,15 +32,15 @@ We provide preprocessed Seurat v5 objects and pseudobulk matrices for **five pub
 
 ---
 
-## 📦 Folder Structure
+## 📦 Folder Structure intended  
 
 ```
-rRoma_covid19/
-├── scripts/                  # Core R scripts for import, processing, pseudobulk
-├── data/                    # Raw and processed data (Seurat objects)
-├── metadata/                # Cell type labels, references, annotations
-├── pseudobulk_outputs/      # Output matrices (pseudocounts per cell type/sample)
-├── results/                 # UMAPs, cluster stats, QC summaries
+covid19
+├── data/                    # Raw data
+├── processed/               # intermediate seurat object
+├── pseudobulk/              # Output matrices (pseudocounts per cell type/sample)
+├── rRoma/                   # rRoma outputs
+├── scripts/                 # Core R scripts for import, processing, pseudobulk
 └── README.md
 ```
 
@@ -48,7 +48,7 @@ rRoma_covid19/
 
 ## 🛠️ Dependencies
 
-- R (≥ 4.3)
+- R 4.3 was used
 - [Seurat v5](https://satijalab.org/seurat/)
 - SingleR
 - edgeR / DESeq2 (optional)
